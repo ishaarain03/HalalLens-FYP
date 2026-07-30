@@ -21,6 +21,16 @@ HalalLens is an AI-powered application that helps users determine whether a food
 
 ```text
 HalalLens-FYP/
+├── screenshots/
+│   ├── authentication.png
+│   ├── home.png
+│   ├── onboarding_1.png
+│   ├── onboarding_2.png
+│   ├── onboarding_3.png
+│   ├── scan_result_1.png
+│   ├── scan_result_2.png
+│   └── splash_screen.png
+│
 ├── README.md
 ├── requirements.txt
 ├── constants.py
@@ -28,17 +38,9 @@ HalalLens-FYP/
 ├── dataset.py
 ├── main.py
 ├── ocr.py
-├── test.jpg
-└── screenshots/
-    ├── Screenshot (19).png
-    ├── Screenshot (22).png
-    ├── authentication.jpeg.jpg
-    ├── home.jpeg.jpg
-    ├── onboarding.png
-    ├── scan_result_1.jpeg.jpg
-    ├── scan_result_2.jpeg.jpg
-    └── splash.jpeg.jpg
+└── test.jpg
 ```
+  
 
 ## How It Works
 
