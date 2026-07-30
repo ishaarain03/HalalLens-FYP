@@ -32,6 +32,10 @@ HalalLens/
 
 ## How It Works
 
+## Sample Input
+
+![Sample Input](test.jpg)
+
 1. Capture or upload an image of a food ingredient label.
 2. Extract ingredient text using OCR.
 3. Compare extracted ingredients with the ingredient database.
