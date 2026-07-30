@@ -1,53 +1,60 @@
-# HalalLens
+# HalalLens – AI-Powered Food Ingredient Classifier
 
-HalalLens is a Python-based application designed to help users identify whether a food product is Halal, Haram, or Doubtful by analyzing its ingredient list. The project uses Optical Character Recognition (OCR) to extract text from product labels and compares the detected ingredients with a predefined dataset to determine the product's status.
+HalalLens is an AI-powered application that helps users determine whether a food product is **Halal, Haram, or Doubtful** by analyzing its ingredient list. The system uses **Optical Character Recognition (OCR)** to extract text from product labels and compares the detected ingredients with a predefined dataset for classification.
 
 ## Features
 
 - Extracts ingredient text from food labels using OCR
-- Analyzes ingredients against a dataset
-- Classifies products as Halal, Haram, or Doubtful
-- Simple and user-friendly workflow
-- Built using Python
+- Classifies ingredients as Halal, Haram, or Doubtful
+- Uses a CSV-based ingredient database
+- Fast and easy-to-use workflow
+- Built with Python
 
 ## Technologies Used
 
 - Python
-- Optical Character Recognition (OCR)
+- OCR (Optical Character Recognition)
 - CSV Dataset
-- Machine Learning Concepts
+- Artificial Intelligence Concepts
 
 ## Project Structure
 
 ```
 HalalLens/
-├── src/
-│   ├── main.py
-│   ├── ocr.py
-│   ├── dataset.py
-│   └── constants.py
-├── input/
-│   ├── dataset.csv
-│   └── test.jpg
+│── main.py
+│── ocr.py
+│── dataset.py
+│── constants.py
+│── dataset.csv
+│── test.jpg
+│── README.md
 ```
 
 ## How It Works
 
-1. Upload an image of a food ingredient label.
-2. The application extracts the text using OCR.
-3. The extracted ingredients are compared with the dataset.
-4. The system classifies the product as Halal, Haram, or Doubtful.
+1. Capture or upload an image of a food ingredient label.
+2. Extract ingredient text using OCR.
+3. Compare extracted ingredients with the ingredient database.
+4. Display the classification result:
+   - ✅ Halal
+   - ❌ Haram
+   - ⚠️ Doubtful
 
 ## Future Improvements
 
-- Develop a Flutter-based mobile application
-- Improve classification accuracy using AI models
-- Support real-time camera scanning
-- Expand the ingredient database
+- Flutter mobile application
+- Generative AI integration for smarter ingredient analysis
+- Real-time camera scanning
+- Larger ingredient database
+- Cloud-based API support
 
 ## Author
 
 **Isha Saleem**
 
-BS Computer Science Student  
+BS Computer Science Graduate  
 The Shaikh Ayaz University, Shikarpur
+
+## License
+
+This project is developed for academic and educational purposes.
