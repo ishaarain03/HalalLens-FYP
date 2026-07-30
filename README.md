@@ -58,7 +58,3 @@ HalalLens/
 
 BS Computer Science Graduate  
 The Shaikh Ayaz University, Shikarpur
-
-## License
-
-This project is developed for academic and educational purposes.
